@@ -1,0 +1,3 @@
+[submodule "bundle/hydrangea"]
+	path = bundle/hydrangea
+	url = https://github.com/yuttie/hydrangea-vim.git
