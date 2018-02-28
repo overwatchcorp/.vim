@@ -9,10 +9,9 @@ set expandtab
 syntax on
 " load plugins
 execute pathogen#infect()
-" map Ctrl + n to open netrw
-let g:netrw_winsize = 20
-" let g:netrw_browse_split = 4
-let g:netrw_liststyle = 3
+" NERDTree setup
+" map to hotkey
+map <C-n> :NERDTreeToggle<CR>
 " remove scrollbars
 set guioptions=
 " open netrw on every new tab
@@ -21,12 +20,14 @@ set guioptions=
 set number
 colorscheme hydrangea
 " autocomplete
-imap <A-Tab> <C-P>
+imap <Tab> <C-P>
 " make splits go down
 set splitbelow
-set lines=70 columns=150
+set lines=70 columns=120
 " font
 set guifont=Menlo\ Regular:h12
 " set guifont=Conolas\ Regular:h13
 " automatically trim whitespace
 autocmd BufWritePre * %s/\s\+$//e
+
+let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
