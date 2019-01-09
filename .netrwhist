@@ -1,8 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/jasperfung/git/dating-app-study/src/components'
-let g:netrw_dirhist_2='/Users/jasperfung/git/dating-app-study'
-let g:netrw_dirhist_3='/Users/jasperfung/git/dating-app-study/src/actions'
-let g:netrw_dirhist_4='/Users/jasperfung/git/dating-app-study/src/components'
-let g:netrw_dirhist_5='/Users/jasperfung/git/dating-app-study/public'
-let g:netrw_dirhist_6='/Users/jasperfung/git/dating-app-study/src/actions'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/fungj/code/wranglefish/src'
+let g:netrw_dirhist_2='/Users/fungj/code/wranglefish/src/actions'
+let g:netrw_dirhist_3='/Users/fungj/code/wranglefish/src'
