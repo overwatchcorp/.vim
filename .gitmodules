@@ -13,6 +13,3 @@
 [submodule "bundle/vim-jsx"]
 	path = bundle/vim-jsx
 	url = https://github.com/mxw/vim-jsx.git
-[submodule "/Users/fungj/.vim/bundle/vim-plist"]
-	path = /Users/fungj/.vim/bundle/vim-plist
-	url = git://github.com/darfink/vim-plist.git
